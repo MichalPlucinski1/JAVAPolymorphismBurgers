@@ -30,6 +30,13 @@ public class Main {
         secondMeal.setDrinkSize("SMALL");
         secondMeal.printItemizedList();
 
+
+        Order deluxeOrder = new Order("deluxe", "7-up", "chili");
+        deluxeOrder.addToppings("AVOCADO", "BACON", "LETTUCE", "CHEESE", "MAYO");
+        deluxeOrder.setDrinkSize("SMALL");
+        deluxeOrder.printItemizedList();
+
+
     }
 
 }
